@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 8;
   padding: 0;
 }
 
@@ -14,14 +14,18 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: 1px solid black;
-  align-items: center;
+  border: 1px solid rgb(223, 222, 222);
+  align-items: end;
   justify-self: center;
-  padding: 0px 30px;
+  font-size: 20px;
+  border-radius: 7px;
+  box-shadow: 2px 3px 22px -4px rgba(200, 197, 197, 1);
 }
 
 img {
   width:70px;
+  height: 70px;
+  border-radius: 100%;
 }
 
 .img {
@@ -42,4 +46,5 @@ img {
 .pointer {
 text-align: end;
 grid-column: 4 / 5;
+padding: 10px;
 }
