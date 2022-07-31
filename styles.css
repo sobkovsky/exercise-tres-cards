@@ -1,6 +1,8 @@
 * {
   margin: 8;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .cards {
@@ -36,6 +38,10 @@ img {
 .h1, .p {
   grid-column: 2 / 5;
   padding: 10px;
+}
+
+.h1 {
+  font-weight: 400;
 }
 
 .link {
