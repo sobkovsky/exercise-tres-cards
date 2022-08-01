@@ -65,6 +65,11 @@ img {
   padding-left: 30px;
 }
 
+a {
+  color: grey;
+  text-decoration: none;
+}
+
 .pointer {
 text-align: end;
 grid-column: 3 / 4;
